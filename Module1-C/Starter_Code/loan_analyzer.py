@@ -44,7 +44,6 @@ print(f"The total sum of all the loans is ${total_of_loans}.")
 avg_loan_amount = total_of_loans / number_of_loans
 print(f"The average amount earned per loan is ${avg_loan_amount: .2f}.")
 print()
-print()
 
 """Part 2: Analyze Loan Data.
 
@@ -101,15 +100,14 @@ present_value = future_value / (1 + (discount_rate/12)) ** remaining_months
 #    Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.
 # YOUR CODE HERE!
 
-if present_value < loan.get("loan_price"):
+if present_value > loan.get("loan_price"):
 
-    print(f"The present value of the loan, ${present_value: .2f}, is less than the loan price, we should purchase the loan.")
+    print(f"The present value of the loan, ${present_value: .2f}, is greater than the loan price, we should purchase the loan.")
 
 else:
 
     print(f"This loan is not worth purchasing at $500 with a fair value of ${present_value: .2f}.")
 
-print()
 print()
 
 """Part 3: Perform Financial Calculations.
@@ -146,10 +144,11 @@ def present_value_calculator(future_value, remaining_months, annual_discount_rat
 # YOUR CODE HERE!
 
 discount_rate = 0.2
-present_value_calculator(new_loan.get("future_value"), new_loan.get("remaining_months"), discount_rate)
-print(f"The present value of the loan is: {present_value}")
+present_value = present_value_calculator(new_loan.get("future_value"), new_loan.get("remaining_months"), discount_rate)
+print(f"The present value of the new loan is ${present_value: .2f}.")
 print()
-print()
+
+# @TAs I disgree with using the same name for variables as this can cause issues in the code.
 
 """Part 4: Conditionally filter lists of loans.
 
