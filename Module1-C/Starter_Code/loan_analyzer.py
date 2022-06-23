@@ -82,7 +82,7 @@ loan = {
 
 future_value = loan.get("future_value")
 remaining_months = loan.get("remaining_months")
-print(f"This loan has a future value of ${future_value} with {remaining_months} months remaining on the loan.")
+print(f"This loan has a future value of ${future_value} with {remaining_months} month(s) remaining on the loan.")
 
 
 # @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.
@@ -103,6 +103,13 @@ present_value = future_value / (1 + (discount_rate/12)) ** remaining_months
 if present_value > loan.get("loan_price"):
 
     print(f"The present value of the loan, ${present_value: .2f}, is greater than the loan price, we should purchase the loan.")
+
+elif present_value == loan.get("loan_price"):
+# I added this for fun on the off chance this happens
+# You normally would just leave it, as money-in-hand is worth more than money later
+
+    print(f"Huh...what are the odds that the fair value and the price are the same?")
+    print(f"I would not purchase this item, but then my job isn't at stake. I'm just a computer.")
 
 else:
 
@@ -143,7 +150,7 @@ def present_value_calculator(future_value, remaining_months, annual_discount_rat
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 # YOUR CODE HERE!
 
-discount_rate = 0.2
+discount_rate = 0.2 # This can be an input at a later date so it can change as necessary
 present_value = present_value_calculator(new_loan.get("future_value"), new_loan.get("remaining_months"), discount_rate)
 print(f"The present value of the new loan is ${present_value: .2f}.")
 print()
@@ -191,12 +198,25 @@ loans = [
 # @TODO: Create an empty list called `inexpensive_loans`
 # YOUR CODE HERE!
 
+inexpensive_loans = []
+
 # @TODO: Loop through all the loans and append any that cost $500 or less to the `inexpensive_loans` list
 # YOUR CODE HERE!
+
+for loan_price in loans:
+
+    if loan_price.get("loan_price") <= 500:
+
+        inexpensive_loans.append(loan_price)
+
+
 
 # @TODO: Print the `inexpensive_loans` list
 # YOUR CODE HERE!
 
+print("Here are our Inexpensive Loans in our system.")
+print(*inexpensive_loans, sep= "\n")
+print()
 
 """Part 5: Save the results.
 
