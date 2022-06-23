@@ -8,6 +8,12 @@ from pathlib import Path
 from numpy import number
 from sympy import rem
 
+print()
+print()
+print("Welcome to the system!")
+print("Today we will be running some calculations on our loans.")
+print()
+
 """Part 1: Automate the Calculations.
 
 Automate the calculations for the loan portfolio summaries.
@@ -67,6 +73,8 @@ Using more detailed data on one of these loans, follow these steps to calculate 
     @NOTE:
     If Present Value represents the loan's fair value (given the required minimum return of 20%), does it make sense to buy the loan at its current cost?
 """
+print("New possible loan to purchase, checking data...")
+print()
 
 # Given the following loan data, you will need to calculate the present value for the loan
 loan = {
@@ -127,6 +135,8 @@ Perform financial calculations using functions.
 2. Use the function to calculate the present value of the new loan given below.
     a. Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 """
+print("A new loan has been acquired.")
+print("Calculating present value of new loan...")
 
 # Given the following loan data, you will need to calculate the present value for the loan
 new_loan = {
@@ -209,13 +219,15 @@ for loan_price in loans:
 
         inexpensive_loans.append(loan_price)
 
-
+print()
+print("Locating the inexpensive loans in the system...")
+print()
 
 # @TODO: Print the `inexpensive_loans` list
 # YOUR CODE HERE!
 
-print("Here are our Inexpensive Loans in our system.")
-print(*inexpensive_loans, sep= "\n")
+print("Here are the Inexpensive Loans in the system.")
+print(*inexpensive_loans, sep="\n")
 print()
 
 """Part 5: Save the results.
@@ -241,3 +253,15 @@ output_path = Path("inexpensive_loans.csv")
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 # YOUR CODE HERE!
+print("Writing this data to a CSV file...")
+print()
+with open(output_path, "w", newline="") as csvfile:
+    # newline="" to prevent 'them' inserting random blank lines
+    csvwriter = csv.writer(csvfile, delimiter=",")
+    # delimiter to put commas after each item.
+    csvwriter.writerow(header)
+    for loan in inexpensive_loans:
+        csvwriter.writerow(loan.values())
+
+print("Inexpensive Loans have been transferred to a CSV file(inexpensive_loans.csv).")
+print("Have a nice day!")
