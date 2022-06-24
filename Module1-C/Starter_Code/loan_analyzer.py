@@ -3,13 +3,7 @@
 # Ends with writing some loan data to a CSV file
 
 import csv
-from audioop import avg
-from lib2to3.pgen2.token import NEWLINE
-from mmap import ALLOCATIONGRANULARITY
 from pathlib import Path
-
-from numpy import number
-from sympy import rem
 
 print()
 print()
