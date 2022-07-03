@@ -55,4 +55,3 @@ def save_csv(csv_info, header, csvpath):
             csvwriter.writerow(line)
 
     print(f"Your data has been saved to a CSV file({csvpath}).")
-    print("Have a nice day!")

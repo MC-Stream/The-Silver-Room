@@ -125,6 +125,9 @@ def save_qualifying_loans(qualifying_loans, header):
 
         save_csv(qualifying_loans, header, csvpath)
 
+    print()
+    print("We thank you for using our program, have a nice day!")
+
 
 def run():
     """The main function for running the script."""
@@ -154,7 +157,7 @@ def run():
                 loans.pop(2)
         
             qual_loans.append(loans)
-            
+
         header = ["Lender", "Max Loan Amount", "Interest Rate"]
 
         print()
