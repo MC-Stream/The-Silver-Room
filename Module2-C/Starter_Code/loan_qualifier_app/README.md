@@ -33,7 +33,7 @@ To use our wonderful loan qualifier program please clone the repository and run 
 python newapp.py
 ```
 
-You will be greeted with prompts, remember the file path for the data is (data/daily_rate_sheet.csv). And don't worry if you spell it incorrectly the first few times, it allows for a few mistakes.
+You will be greeted with prompts, *remember the file path for the data is (data/daily_rate_sheet.csv)*. And don't worry if you spell it incorrectly the first few times, it allows for a few mistakes.
 
 It will proceed to ask you for financial information, please provide this to the best of your knowledge.
 
@@ -45,7 +45,7 @@ Please name the file anything you like, no judgements here.
 
 ## Contributors
 
-###Matthew Stream
+### Matthew Stream
 m.stream3663@gmail.com
 [LinkedIn](https://www.linkedin.com/in/matthew-stream-mba-215634102/)
 
