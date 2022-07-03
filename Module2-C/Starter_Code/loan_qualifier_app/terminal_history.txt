@@ -1,0 +1,20 @@
+    1  conda activate dev
+    2  cd OneDrive/Desktop/Module_Info
+    3  ls
+    4  cd The-Silver-Room/
+    5  ls
+    6  cd Module2-C/
+    7  ls
+    8  cd Starter_Code/
+    9  ls
+   10  cd loan_qualifier_app/
+   11  ls
+   12  cd newapp.py
+   13  python --version
+   14  git status
+   15  git add .
+   16  git commit -m "Updates to the Readme, movement of the thank you message from fileio to newapp"
+   17  git push
+   18  history 50 > terminal_history.txt
+
+   *Sorry, it's short cause my git crashed and I had to reopen it...*
