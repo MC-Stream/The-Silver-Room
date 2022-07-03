@@ -1,0 +1,56 @@
+    1  conda activate dev
+    2  cd OneDrive/Desktop/Module_Info
+    3  ls
+    4  cd The-Silver-Room/
+    5  ls
+    6  cd Module2-C/
+    7  ls
+    8  cd Starter_Code/
+    9  ls
+   10  cd loan_qualifier_app/
+   11  ls
+   12  cd newapp.py
+   13  python --version
+   14  git status
+   15  git add .
+   16  git commit -m "Updates to the Readme, movement of the thank you message from fileio to newapp"
+   17  git push
+   18  history 50 > terminal_history.txt
+   19  git status
+   20  git add terminal_history.txt 
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "Added terminal_history to my info."
+   25  git push
+   26  git status
+   27  git add .
+   28  git commit -m "Light changes made to readme."
+   29  git push
+   30  git status
+   31  git add .
+   32  git commit -m "Light changes made to readme."
+   33  git push
+   34  git status
+   35  git add .
+   36  git commit -m "Updates to comments in the fileio module."
+   37  git push
+   38  python newapp.py
+   39  python newapp.py
+   40  python newapp.py
+   41  python newapp.py
+   42  git status
+   43  git rm loans4me.csv 
+   44  git rm loans4me.csv
+   45  ls
+   46  rm loans4me.csv
+   47  ls
+   48  git status
+   49  git add .
+   50  git status
+   51  git add .
+   52  git status
+   53  git add .
+   54  git commit -m "Additional commenting adjustments to the non-qualifying aspect."
+   55  git push
+   56  history 100 > terminal_history2.txt
