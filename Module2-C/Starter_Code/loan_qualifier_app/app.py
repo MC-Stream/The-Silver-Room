@@ -30,7 +30,6 @@ def load_bank_data():
     Returns:
         The bank data from the data rate sheet CSV file.
     """
-
     csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
     if not csvpath.exists():
@@ -137,3 +136,5 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
+
+
