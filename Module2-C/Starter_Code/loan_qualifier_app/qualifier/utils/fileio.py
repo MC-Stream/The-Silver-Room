@@ -31,10 +31,12 @@ def load_csv(csvpath):
     return data
 
 def save_csv(csv_info, header, csvpath):
-    """Saves the qualifying loans to a CSV file.
+    """Saves the data in to a CSV file.
 
     Args:
-        qualifying_loans (list of lists): The qualifying bank loans.
+        csv_info: A list to be added to the csv file.
+        header: Adds headers for this data.
+        csvpath: The name of the new file you wish to create.
     """
     csvpath = csvpath + ".csv"
     # Adding .csv to the end of the file name
