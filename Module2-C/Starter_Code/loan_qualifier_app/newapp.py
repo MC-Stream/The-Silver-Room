@@ -165,9 +165,10 @@ def run():
         save_qualifying_loans(qual_loans, header)
 
     else:
-
+        #If they qualify for no loans
         print(f"We are sorry, you do not currently qualify for any of our known loans.")
-
+        print(f"We hope you will check back with us again soon.")
+        print(f"Have a great rest of your day!")
 
 if __name__ == "__main__":
     fire.Fire(run)
