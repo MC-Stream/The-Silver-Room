@@ -39,8 +39,6 @@ def save_csv(csv_info, header, csvpath):
     csvpath = csvpath + ".csv"
     # Adding .csv to the end of the file name
 
-    print(len(csv_info))
-    
     output_path = Path(csvpath)
 
     print("Writing this informaiton to a CSV file...")

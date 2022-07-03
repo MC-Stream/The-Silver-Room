@@ -153,7 +153,8 @@ def run():
 
                 loans.pop(2)
         
-        qual_loans.append(loans)
+            qual_loans.append(loans)
+            
         header = ["Lender", "Max Loan Amount", "Interest Rate"]
 
         print()
