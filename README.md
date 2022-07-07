@@ -6,7 +6,7 @@
 ---
 The repository for my FinTech projects. Please grade my codebase!
 
-###Directory
+### Directory
 
 [Module 1](https://github.com/MC-Stream/The-Silver-Room/tree/main/Module1-C/Starter_Code)
 
