@@ -33,11 +33,13 @@ Make sure that both of these show in your system before proceeding.
 
 ## Usage
 
-To use the bitcoin arbitrage notebook, begin by typing jupyter lab in your terminal. Next, find the folder with the notebook(crypto_arbitrage.ipynb) and double click it to open it up in a new launcher. Then, begin running through each section of the application to get the appropriate data.
+To use the bitcoin arbitrage notebook, begin by typing jupyter lab in your terminal. 
 
 ```python
 jupyter lab
 ```
+
+Next, find the folder with the notebook(crypto_arbitrage.ipynb) and double click it to open it up in a new launcher. Then, begin running through each section of the application to get the appropriate data.
 
 Once in the notebook it will take you through a step-by-step process as it Collects the Data, Prepares the Data, and Analyzes the Data.
 You will be granted visualizations along the way to help better see and understand the data.
