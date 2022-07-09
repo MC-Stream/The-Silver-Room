@@ -1,0 +1,40 @@
+    1  conda --version
+    2  cd The-Silver-Room/
+    3  git status
+    4  git status
+    5  git add .
+    6  git status
+    7  git status
+    8  git add .
+    9  git commit -m "Minor adjustments and run to change colors back."
+   10  git push
+   11  git pull
+   12  git status
+   13  git push
+   14  git status
+   15  git status
+   16  git add .
+   17  git commit -m "Began work on th Arbitrage Informaiton."
+   18  git push
+   19  git status
+   20  git status
+   21  git add .
+   22  git commit -m "Finsihed up the arbitrage information and answered the questions."
+   23  git push
+   24  git status
+   25  conda pandas --v
+   26  pip show pandas
+   27  pip show jupyter
+   28  pip show %matplotlib
+   29  conda list jupyterlab
+   30  conda list %matplotlib
+   31  git status
+   32  git add .
+   33  git status
+   34  git commit -m "Cleaned up the code, finished the readme file."
+   35  git push
+   36  git status
+   37  git add .
+   38  git commit -m "Added a last little note to clean up info."
+   39  git push
+   40  history 100 > terminal_history.txt
