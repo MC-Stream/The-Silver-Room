@@ -14,4 +14,4 @@ The repository for my FinTech projects. Please grade my codebase!
 
 [Module 3](https://github.com/MC-Stream/The-Silver-Room/tree/main/Module3-C/)
 
-[Module 3](https://github.com/MC-Stream/The-Silver-Room/tree/main/Module4-C/Starter_Code)
+[Module 4](https://github.com/MC-Stream/The-Silver-Room/tree/main/Module4-C/Starter_Code)
