@@ -6,7 +6,7 @@ This is a Jupyter notebook that aims to offer clients a one-stop online investme
 
 ## Technologies
 
-This project utilizes JupyterLab 3.3.2 and Pandas 1.4.2 and Matplotlib 4.0:
+This project utilizes JupyterLab 3.3.2, Pandas 1.4.2, NumPy 1.21.5, and Matplotlib 4.0:
 
 * [JupyterLab](https://jupyter.org/) - For the notebook creation and running of the code.
 
