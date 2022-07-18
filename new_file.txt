@@ -1,0 +1,1 @@
+jupyter lab --ContentsManager.allow_hidden=True
