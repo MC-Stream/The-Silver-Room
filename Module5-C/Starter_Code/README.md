@@ -8,6 +8,18 @@ Just after the title, introduce your project by describing attractively what the
 
 Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
+os
+requests v2.28.0
+ujson v5.1.0 or json5 0.9.6 or python-fastjsonschema 2.15.1 or jsonschema 4.4.0
+python-dotenv v0.20.0
+alpaca-trade-api v2.3.0
+%matplotlib
+
+MCForecastTools.py
+env file with API keys
+Image files
+
+
 ---
 
 ## Installation Guide
